@@ -18,11 +18,11 @@ app.get('/content-one',function(req,res){
 });
 
 app.get('/content-two',function(req,res){
-    req.send('This the article two');
+    res.send('This the article two');
 });
 
 app.get('/content-three',function(req,res){
-    req.send('This is the article three');
+    res.send('This is the article three');
 });
 
 app.get('/ui/madi.png', function (req, res) {
